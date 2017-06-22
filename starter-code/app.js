@@ -6,6 +6,10 @@ const app = express();
 
 app.set("view engine", "ejs");
 
+app.use(expressLayouts);
+
+app.set("layout", "main-layout.ejs");
+
 app.use(express.static("public"));
 
 app.get("/", (req, res, next) => {
