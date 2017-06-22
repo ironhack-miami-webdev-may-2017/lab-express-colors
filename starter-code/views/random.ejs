@@ -1,0 +1,29 @@
+<h2> <%= pickedColor.category %> </h2>
+
+
+
+
+
+    <ul>
+
+    <%  colorsList.forEach((oneColor) =>{ %>
+      <%  if ( oneColor.category === pickedCategory){ %>
+
+
+          <li>
+            <div class ="color-box" style= "background-color:<%= oneColor.hex %>;"> </div>
+            <p class = "text">
+              <%= oneColor.keyword %>
+              <br>
+              <%= oneColor.hex %>
+              <br>
+              <%= oneColor.category %>
+             </p>
+
+          </li>
+      <%  } %>
+
+
+    <%  }) %>
+
+    </ul>
