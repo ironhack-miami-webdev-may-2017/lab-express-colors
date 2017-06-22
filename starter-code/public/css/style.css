@@ -1,0 +1,30 @@
+ul{
+  width:100%;
+}
+li{
+  list-style: none;
+  width: 25%;
+  height: 300px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 30px;
+  float: left;
+}
+
+.color{
+  width:100%;
+  height: 200px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+div.textArea{
+  margin: 22px 20px;
+  color: darkslategray;
+}
+
+
+footer{
+  clear: both;
+  width:500px;
+}
