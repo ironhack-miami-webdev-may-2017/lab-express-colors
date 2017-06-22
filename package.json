@@ -1,0 +1,24 @@
+{
+  "name": "lab-express-colors",
+  "version": "1.0.0",
+  "description": "Web Colors App ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaacove/lab-express-colors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicaacove/lab-express-colors/issues"
+  },
+  "homepage": "https://github.com/jessicaacove/lab-express-colors#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-ejs-layouts": "^2.3.0"
+  }
+}

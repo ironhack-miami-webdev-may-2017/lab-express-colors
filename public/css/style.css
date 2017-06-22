@@ -1,0 +1,14 @@
+
+.bigdiv {
+  width: 100px;
+  height: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+.colordiv {
+  height: 70px;
+  border: 1px solid black;
+}

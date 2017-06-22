@@ -1,0 +1,11 @@
+<h2> Colors </h2>
+
+<div class="bigdiv">
+<ul>
+  <% colorList.forEach((oneColor) => { %>
+    <div class="colordiv" style="background-color: <%= oneColor.hex %>; color:<%= oneColor.hex %>;"> "" </div>
+    <li> <%= oneColor.keyword %> </li>
+    <li>      <%= oneColor.hex %> </li>
+  <% }) %>
+</ul>
+</div>
