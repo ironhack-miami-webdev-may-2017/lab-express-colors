@@ -1,0 +1,25 @@
+<h2 style="color:black;font-size:75px;">COLORS</h2>
+<div class="menu">
+  <a href="/">Home</a>
+  <a href="/random-color">Random Color</a>
+</div>
+
+<ul style="width: 85%;margin: auto;padding:0;">
+  <% viewColors.forEach((color) =>{%>
+    <li style="list-style:none;display:inline-block;margin:0;">
+      <div style="background-color:<%=color.hex%>;
+        width:300px;
+        height:250px;
+        text-align:center;
+        margin: -5px;">
+
+        <div class="text">
+          <p><%= color.keyword %></p>
+          <p><%=color.hex %><p>
+        </div>
+        </div>
+
+
+    </li>
+  <%})%>
+</ul>
