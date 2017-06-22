@@ -1,0 +1,9 @@
+<h2>Colors</h2>
+<ul>
+  <%colorsForView.forEach((oneColor) => {%>
+    <li style = 'background-color: <%= oneColor.hex%>;'>
+      <h2><%=oneColor.keyword%></h2>
+      <p> <%=oneColor.hex%></p>
+    </li>
+  <%});%>
+</ul>
