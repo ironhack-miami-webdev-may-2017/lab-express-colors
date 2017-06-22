@@ -1,0 +1,15 @@
+<h2>Here are gray colors you can pick</h2>
+
+<ul>
+  <%colors.forEach((colors) => {%>
+    <%if(colors.category ==="grayscale"){%>
+      <li>
+        <div class="color" style="background-color:<%=colors.keyword%>"></div>
+        <div class="textArea">
+          <p><%=(colors.keyword.charAt(0).toUpperCase() + colors.keyword.slice(1))%></p>
+          <p><strong><%=colors.hex.toUpperCase()%></strong></p>
+        </div>
+      </li>
+    <%}%>
+  <%})%>
+</ul>
