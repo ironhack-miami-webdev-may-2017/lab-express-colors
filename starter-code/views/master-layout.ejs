@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> <%= myTitle %> </title>
+    <link rel="stylesheet" href= "/css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1> <%= myTitle %> </h1>
+
+      <nav>
+        <a href="/">Home </a>
+        <br>
+        <a href="/colors"> List of All Colors </a>
+        <br>
+        <a href="/green"> Green Category</a>
+        <br>
+        <a href="/blue"> Blue Category</a>
+        <br>
+        <a href="/grayscale"> Grayscale Category</a>
+        <br>
+        <a href="/random"> Random Category</a>
+
+      </nav>
+    </header>
+
+
+<!-- VVVVVVVV THE MOST IMPORTANT PART OF THE LAYOUT VVVVVVVV -->
+   <%-body %>
+<!-- ^^^^^^^ DONT FORGET THIS!!!!! ^^^^^^^^^-->
+
+    <footer>
+      <p> Made with Love at Ironhack </p>
+    </footer>
+    <script src="/js/front.js"></script>
+  </body>
+</html>
