@@ -1,0 +1,29 @@
+.randomColors{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.randomColors li{
+  list-style-type: none;
+  padding-top: 208px;
+  text-align: center;
+}
+.random {
+  widht: 600px;
+  height: 600px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.random > li {
+  list-style-type: none;
+  padding-top: 208px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+a {
+  display: block;
+  text-transform: uppercase;
+}

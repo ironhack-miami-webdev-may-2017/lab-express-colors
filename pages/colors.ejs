@@ -1,0 +1,11 @@
+<h2>COLORS</h2>
+
+<ul>
+   <%  colorsArray.forEach((color)=>{  %>
+    <div class= "randomColors" style='background-color: <%= color.hex%>' >
+
+    <li> <%= color.keyword; %>
+          <%=  color.hex; %>
+          <%=  color.category; %> </li></div>
+<%  });  %>
+</ul>

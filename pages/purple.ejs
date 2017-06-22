@@ -1,0 +1,14 @@
+<h2>purple</h2>
+
+<ul>
+   <%  colorsArray.forEach((color)=>{  %>
+     <% if (color.category === 'purple') { %>
+    <div class= "randomColors" style='background-color: <%= color.hex%>' >
+
+
+
+    <li> <%= color.keyword; %>
+          <%=  color.hex; %>
+          <%=  color.category; %> </li></div>
+<%  }});  %>
+</ul>
