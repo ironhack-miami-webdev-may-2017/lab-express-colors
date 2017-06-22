@@ -1,0 +1,17 @@
+<a href="/"> HOME </a>
+<a href="/colors"> COLOR PALETTE </a>
+
+<h2> RANDOM COLOR </h2>
+
+<ul style="padding: 0">
+  <li style="list-style: none;">
+    <div style="background-color: <%= viewRandomColor.hex %>;
+                height: 500px;
+                width: 1200px;
+                display: table;
+                margin: auto;">
+      <p class="color-text" style="margin-top: 90px;"> <%= viewRandomColor.keyword %> </p>
+      <p class="color-text"> <%= viewRandomColor.hex %></p>
+    </div>
+  </li>
+</ul>

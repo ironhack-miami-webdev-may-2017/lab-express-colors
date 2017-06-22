@@ -1,0 +1,39 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+.color-text {
+  color: white;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 12px;
+  font-size: 18px;
+  color: black;
+  border: 1px solid lightgrey;
+}
+
+a:hover {
+  color: white;
+  background-color: lightgrey;
+}
+
+h3 {
+  font-size: 120px;
+  color: #00BFFF;
+  margin: 100px;
+  font-family: 'Dancing Script', cursive;
+}
