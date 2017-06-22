@@ -1,0 +1,15 @@
+<section id="all-colors-page" class="section-view">
+    <ul class=".flex-box-row-between swatch-wall">
+      <% colorsForView.forEach((oneColor)=>{
+        if (oneColor.category === 'blue') { %>
+          <li class="color-swatch">
+            <div class="color-sample" style="background-color:<%=oneColor.hex%>;"></div>
+            <div class="color-description">
+              <p><%=oneColor.keyword%></p>
+              <p><%=oneColor.hex%> </p>
+            </div>
+          </li>
+      <%  }
+       })%>
+    </ul>
+</section>
