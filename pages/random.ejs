@@ -1,0 +1,10 @@
+<h2>random</h2>
+
+<ul>
+   <% let rand = Math.floor((Math.random() * colorsArray.length)); %>
+    <div class= "random" style='background-color: <%= colorsArray[rand].hex%>' >
+
+    <li> <%= colorsArray[rand].keyword; %>
+          <%=  colorsArray[rand].hex; %>
+          <%=  colorsArray[rand].category; %> </li></div>
+</ul>
