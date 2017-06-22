@@ -1,0 +1,11 @@
+<h2>Purple Colors</h2>
+<ul>
+  <%colorsForView.forEach((oneColor) => {%>
+    <%if(oneColor.category === "purple"){%>
+      <li style = 'background-color: <%= oneColor.hex%>;'>
+        <h2><%=oneColor.keyword%></h2>
+        <p> <%=oneColor.hex%></p>
+      </li>
+    <%}%>
+  <%});%>
+</ul>
