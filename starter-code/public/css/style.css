@@ -25,6 +25,15 @@ body{
     font-weight: 700;
 }
 
+.menu a{
+  text-decoration: none;
+  color: #514958;
+}
+
+.menu a:hover{
+  color: blueviolet;
+}
+
 .home-img img{
   width: 500px;
 margin-top: 19px;
