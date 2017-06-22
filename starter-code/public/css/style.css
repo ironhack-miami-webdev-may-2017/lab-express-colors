@@ -1,0 +1,57 @@
+body {
+  margin:0;
+  font-family: 'Avenir';
+  font-weight: 300;
+  padding:0 80px;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+}
+
+header {
+  height:80px;
+  line-height: 80px;
+  border-bottom: 1px solid black;
+  overflow:hidden;
+  position: fixed;
+  width:100%;
+  background:#fff;
+  top:0;
+  left:0;
+  right:0;
+  z-index:999999;
+}
+
+header h1 {
+  float:left;
+  margin:0;
+  margin-left:80px;
+}
+
+nav {
+  float:right;
+  text-align:right;
+}
+
+nav a {
+  margin-left:20px;
+  text-decoration: none;
+  color:#000;
+}
+
+ul {
+  padding:0;
+}
+
+ul li {
+  list-style-type: none;
+  border:1px solid black;
+  padding-left:40px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  opacity:0.5;
+}
