@@ -1,0 +1,12 @@
+<h2> Oranges! </h2>
+<ul>
+  <% colors.forEach((color) => { %>
+    <% if (color.category==="orange") { %>
+    <li>
+      <div class="displaybox" style="background-color: <%= color.hex %>"></div>
+      <%= color.keyword %>
+      <%= color.hex %>
+    </li>
+    <% } %>
+  <% }) %>
+</ul>
