@@ -1,0 +1,16 @@
+<h2> Blue </h2>
+
+<ul>
+  <% colorsForView.forEach( (oneColor) => { %>
+
+<% if (oneColor.category === "blue") { %>
+<div class="swatch">
+    <div class="box" style="background-color: <%= oneColor.hex %>"></div>
+    <div class="box2"> <div class="panel panel-default"><div class="panel-body">
+        <%- oneColor.keyword  %> &nbsp; <%-  oneColor.hex %> &nbsp; <%- oneColor.category %>
+      </div></div></div>
+</div>
+<% } %>
+<%  }) %>
+
+</ul>
