@@ -1,16 +1,14 @@
-<h2 style="color:black;font-size:75px;">Random Selected Color</h2>
+<!-- <h2 style="color:black;font-size:75px;">Random Selected Color</h2> -->
+<div class="container">
+  <h2 class="main-title" style="font-size:50px">
+    Random Selected Color
+  </h2>
 <div class="menu">
-<a href="/">Home</a>
-<a href="/colors">Library of Colors</a>
+  <a class="btn btn-outline-primary" role="button" href="/">Home</a>
+  <a class="btn btn-outline-warning" role="button" href="/random-color">Click Me!</a>
+  <a class="btn btn-outline-primary" role="button" href="/colors">Library of Colors</a>
 </div>
-<div style="background-color:<%=viewRandomColor.hex%>;
-  width:812px;
-  height:500px;
-  text-align:center;
-  margin: -5px;
-      margin: auto;
-      font-size: 31px;
-font-weight: 800;">
+<div class="color-box" style="background-color:<%=viewRandomColor.hex%>;">
   <p class="text"><%= viewRandomColor.keyword %></p>
   <p class="text"><%= viewRandomColor.hex %></p>
 </div>
