@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Metabits -->
+    <meta charset="utf-8">
+
+    <!-- Who Am I? -->
+    <title> | Colors | </title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+
+    <!-- Reset default CSS -->
+    <link href="css/reset.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Styles via SCSS -->
+    <link href="css/style.min.css" type="text/css" rel="stylesheet">
+
+
+  </head>
+  <body>
+  <nav class="navbar navbar-default topbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed custom-color" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand a-link" href="/">Pick-a-Color </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+      <li><a class="a-link" href="/">Home</a></li>
+        <li><a class="a-link" href="/colors"> Colors </a></li>
+        <li class="dropdown">
+          <a class="a-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="greyscale"> Greyscale </a></li>
+            <li><a href="/red"> Red </a></li>
+            <li><a href="/purple"> Purple </a></li>
+            <li><a href="/pink"> Pink </a></li>
+            <li><a href="/green"> Green </a></li>
+            <li><a href="/yellow"> Yellow</a></li>
+            <li><a href="/blue"> Blue </a></li>
+            <li><a href="/orange"> Orange </a></li>
+            <li><a href="/beige"> Beige </a></li>
+            <li><a href="/brown"> Brown </a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="/random">Random Color</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- THIS IS IMPORTANT TO INCLUDE -->
+      <%- body %>
+<!-- ////////////////////////////////////////////////////// -->
+
+    <!-- Script Kiddie Toolbox -->
+    <script type="text/javascript" src="../scripts/frameworks/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- My Script(s) -->
+    <script type="text/javascript" src="../scripts/frontend.js"></script>
+
+
+  </body>
+</html>
