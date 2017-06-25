@@ -1,0 +1,49 @@
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #595858;
+  text-align: center;
+}
+
+h2 {
+  color: #595858;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navigation {
+  display: inline;
+}
+
+.bigdiv {
+
+}
+
+
+li {
+  list-style: none;
+  color: #595858;
+}
+
+.colorname {
+  font-size: 18px;
+}
+
+.colorcode {
+font-size: 22px;
+}
+
+.littlediv {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 350px;
+  margin: 20px;
+  display: inline-block;
+
+}

@@ -1,0 +1,17 @@
+<h2> PURPLE COLORS </h2>
+
+<div class="bigdiv">
+
+<ul>
+
+<% colorList.forEach((oneColor) => { %>
+   <% if (oneColor.category === "purple") { %>
+     <div class="littlediv" style="background-color: <%= oneColor.hex %>; color:<%= oneColor.hex %>;">
+   <li class="colorname"> <%= oneColor.keyword %> </li>
+   <li class="colorcode"> <%= oneColor.hex %> </li>
+   <div class=" <%= oneColor.hex %>"></div>
+<% } %>
+</div>
+<% }) %>
+</ul>
+</div>
